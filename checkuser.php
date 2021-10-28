@@ -1,8 +1,8 @@
 <?php
 $host              = "localhost";                 //Server host address, usually will set to be localhost
-$databse_name      = "dkfillrp_dbcoac";           //Server database name
+$databse_name      = "";           //Server database name
 $database_username = "root";            		  //Server databse name
-$database_password = 'zt@2016AEC2';               //Database password
+$database_password = '';               //Database password
 
 $link = mysql_connect($host,$database_username,$database_password);
 if(!$link){
